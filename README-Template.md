@@ -5,20 +5,20 @@
 This is a pipeline for annotation of changes in codon sequences and ΔRSCU values into the INFO field of variant calling files (.vcf)
 
 Programming languages used:
--Python (v3.8.2)
--Perl
--Bash (v5.0)
+* Python (v3.8.2)
+* Perl
+* Bash (v5.0)
 
 Available software used:
--CodonW (v1.4.4)
--VEP (v100)
+* CodonW (v1.4.4)
+* VEP (v100)
 
 ### Prerequisites
 
 VEP requires:
--gcc, g++ and make
--Perl version 5.0 or above
--Perl packages: Archive::Zip, DBD::mysql, DBI
+* gcc, g++ and make
+* Perl version 5.0 or above
+* Perl packages: Archive::Zip, DBD::mysql, DBI
 
 ## Codon usage analysis using CodonW
 ### CodonW installation
@@ -298,4 +298,4 @@ Monika Kurgonaite – monika.kurg@gmail.com
 
 ## Acknowledgments
 
-* I wish to thank Helena Persson, whose code was used for sequence filtering in codon usage analysis step
+I wish to thank Helena Persson, whose code was used for sequence filtering in codon usage analysis step
